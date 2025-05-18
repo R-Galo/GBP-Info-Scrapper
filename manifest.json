@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google Business Profile Scraper",
+  "name": "Google Maps Business Scraper",
   "version": "1.0",
   "description": "This extension is to pull Google Busines Profile info from Google Maps and shows CID link",
     "author": "Ruddy Galo",
