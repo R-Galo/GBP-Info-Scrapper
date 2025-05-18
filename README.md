@@ -1,0 +1,44 @@
+# Google Business Profile Scraper
+
+A lightweight Chrome extension that extracts key business information from Google Business Profiles (GBPs) on Google Maps. Ideal for marketers, SEOs, and business analysts who need fast access to name, address, phone, categories, and more — all in one click.
+
+---
+
+## Features
+
+- Extracts business name, address, phone number, website, hours, and categories
+- Works directly on Google Maps business listings
+- No login or account needed
+- Output in clean, easy-to-copy format
+
+---
+
+## Installation
+
+### Option 1: Manual (Unpacked)
+1. Clone or download this repository.
+2. Go to `chrome://extensions/` in your browser.
+3. Enable **Developer Mode** (top-right).
+4. Click **Load unpacked** and select the extension folder.
+
+### Option 2: From Chrome Web Store (coming soon)
+
+---
+
+##  How It Works
+
+1. Navigate to a business profile on [Google Maps](https://maps.google.com)
+2. Click the extension icon.
+3. The scraper automatically gathers the info and displays it.
+
+---
+
+## File Structure
+extension/
+|- manifest.json
+|- background.js
+|- content.js
+|- popup.html
+|- popup.js
+|- style.css
+|- icon.png
