@@ -1,6 +1,6 @@
 # Google Business Profile Scraper
 
-A lightweight Chrome extension that extracts key business information from Google Business Profiles (GBPs) on Google Maps. Ideal for marketers, SEOs, and business analysts who need fast access to name, address, phone, categories, and more — all in one click.
+A lightweight Chrome extension that extracts key business information (NAP - Name Address Phone) from Google Business Profiles (GBPs) on Google Maps. Ideal for marketers, SEOs, and business analysts who need fast access to name, address, phone, categories, and more — all in one click.
 
 ---
 
@@ -42,3 +42,13 @@ extension/
 |- popup.js
 |- style.css
 |- icon.png
+
+---
+
+## License
+
+This project is licensed under a custom **Non-Commercial License**.  
+You are free to use it for learning and personal projects.  
+Commercial use is **not permitted**.
+
+[View full license](./LICENSE.md)
