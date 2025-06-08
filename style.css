@@ -21,3 +21,8 @@ body {
 #githubLink:hover {
   text-decoration: underline;
 }
+
+span {
+  white-space: pre-line;
+  font-family: Arial, sans-serif;
+}

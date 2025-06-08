@@ -1,7 +1,9 @@
 // background.js
-
-// Currently not doing anything, but required by manifest, potentially useful for future features such as
-// notifications, context menus, etc.
-chrome.runtime.onInstalled.addListener(() => {
-  console.log("Google Business Profile Scraper Extension Installed");
+chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
+    if (msg.action === "getBusinessInfo") {
+        chrome.tabs.query({ active: true, currentWindow: true }, ([tab]) => {
+            chrome.tabs.sendMessage(tab.id, { action: "getBusinessInfo" }, sendResponse);
+        });
+        return true; // Keep sendResponse alive for async communication
+    }
 });

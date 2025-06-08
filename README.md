@@ -40,7 +40,6 @@ Ideal for marketers, SEOs, and analysts who need fast access to business details
 extension/
 ├── manifest.json
 ├── background.js
-├── content.js
 ├── popup.html
 ├── popup.js
 ├── style.css
