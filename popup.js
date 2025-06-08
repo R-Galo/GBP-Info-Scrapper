@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("website").textContent = cleanText(response.website);
         document.getElementById("website").href = response.website || "#";
 
-        // Handle CID properly
+        // Handle CID display and link
         const cidLink = document.getElementById('cid');
         if (response.cid) {
             cidLink.href = response.cid;
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             cidLink.style.color = 'gray';
         }
 
-        // Copy CID to clipboard
+        // Copy CID Functionality
         document.getElementById("copyCid").addEventListener("click", () => {
             navigator.clipboard.writeText(response.cid || "No CID available")
                 .then(() => console.log("CID copied!"))
